@@ -1,4 +1,4 @@
-alert("we are here");
+// alert("we are here");
 
 var btn = document.getElementById("send-message");
 btn.onclick(function (e) {

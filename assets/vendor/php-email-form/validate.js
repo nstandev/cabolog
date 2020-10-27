@@ -151,7 +151,7 @@
   });
 
   function php_email_form_submit(this_form, action, data) {
-    console.log(data);
+    console.log("1---- ", data);
     console.log(action);
     $.ajax({
       type: "POST",

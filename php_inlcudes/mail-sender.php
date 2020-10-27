@@ -44,6 +44,7 @@ $mail->addReplyTo("cnwankwo@softingines.com", "Reply");
 // $mail->AltBody = "This is the plain text version of the email content";
 
 if ( isset($_POST['message']) && isset($_POST['email']) && isset($_POST['name']) ){
+		echo "inside POST check";
 		$message = $_POST['message'];
 		// $to = "nwankwo.chibike@yahoo.com";
 		// $from = "nwankwo.claus@gmail.com";

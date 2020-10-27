@@ -2,6 +2,7 @@
 require_once "../vendor/autoload.php";
 use PHPMailer\PHPMailer\PHPMailer;
 
+echo "in php mailer";
 //PHPMailer Object
 $mail = new PHPMailer;
 

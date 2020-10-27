@@ -15,7 +15,7 @@ $mail -> Port = 465; // or 587
 
 //gmail info
 $mail -> Username = "nwankwo.claus@gmail.com";
-$mail -> Password = "";
+$mail -> Password = "Heros94!";
 $mail -> setFrom("nwankwo.claus@gmail.com");
 
 //Send HTML or Plain Text email

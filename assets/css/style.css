@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* red #cf3939 */
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -56,7 +58,7 @@ h6 {
 }
 
 .back-to-top i:hover {
-  background: #6fc02c;
+  background: #cf3939;
   color: #fff;
 }
 
@@ -502,7 +504,8 @@ h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #29166f;
+  /* background: #29166f; */
+  background: #cf3939;
 }
 
 #hero .btn-get-started {
@@ -557,6 +560,10 @@ section {
   background-color: #f1f1f1;
 }
 
+.section-bg-2 {
+  background-color: #f1f1f13d;
+}
+
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -605,7 +612,8 @@ section {
 .about .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5c9f24;
+  /* color: #29166f; */
+  color: #cf3939;
 }
 
 .about .content .icon-box p {
@@ -615,7 +623,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../img/us.jpeg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -734,7 +742,8 @@ section {
   background: #fff;
   border-radius: 50%;
   transition: 0.5s;
-  color: #29166f;
+  /* color: #29166f; */
+  color: #cf3939;
   font-size: 40px;
   overflow: hidden;
   padding-top: 20px;
@@ -792,7 +801,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #29166f;
+  color: #cf3939;
 }
 
 .why-us .box h4 {
@@ -811,7 +820,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #29166f !important;
+  background: #cf3939 !important;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }

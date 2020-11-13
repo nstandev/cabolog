@@ -1659,7 +1659,7 @@ section {
 
 .img-fixer {
   width: 100%;
-  height: 240px !important;
+  height: auto;
 }
 
 .carousel-item img {
